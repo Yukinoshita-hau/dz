@@ -4,25 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
 	<title>Rigester page</title>
 </head>
 
 <body>
-	<h1>Регистрация</h1>
-	<p>Уже есть аккаунт? <a href="#">Войти</a></p>
-	<h2>Моя компания</h2>
-	<form action="#">
-		<input type="text" placeholder="Имя" name="name" />
-		<input type="text" placeholder="Фамилия" name="surname" />
-		<div>
-			<input type="email" placeholder="E-mail" />
-		</div>
-		<button type="submit">Зарегистрироваться </button>
-		<div>
-			<input type="checkbox" name="agree" id="agree" />
-			<label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
-		</div>
-	</form>
+	<main>
+		<h1>Регистрация</h1>
+		<p>Уже есть аккаунт? <a href="#">Войти</a></p>
+		<h2>Моя компания</h2>
+		<form action="#">
+			<input type="text" placeholder="Имя" name="name" />
+			<input type="text" placeholder="Фамилия" name="surname" />
+			<div>
+				<input type="email" placeholder="E-mail" name="email" />
+			</div>
+			<button type="submit">Зарегистрироваться </button>
+			<div class="checkbox">
+				<input type="checkbox" name="agree" id="agree" />
+				<label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+			</div>
+		</form>
+
+	</main>
 </body>
 
 </html>
