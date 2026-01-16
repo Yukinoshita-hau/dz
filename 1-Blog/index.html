@@ -4,13 +4,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css" />
 	<title>Blog</title>
 </head>
 
 <body>
 	<header>
 		<nav>
-			<ul>
+			<ul class="navigationLink">
 				<li><a href="#">В Мой блог</a></li>
 				<li><a href="#">HTML и CSS</a></li>
 				<li><a href="#">Frontend</a></li>
@@ -18,10 +19,10 @@
 			</ul>
 		</nav>
 
-		<input type="text" placeholder="Поиск">
+		<input type="text" placeholder="Поиск" class="searchInput">
 	</header>
 	<main>
-		<div>
+		<div class="metaInformation">
 			FRONTEND
 			<span><img src="images/Rectangle.png" alt="квадрат"></span>
 			<time datetime="2024-05-12">12 мая 2024</time>
@@ -31,15 +32,15 @@
 
 		<address>
 			<img src="./images/girst-icon.jpg" alt="логотип девушки">
-			<p>Наталья Васильева</p>
-			<p>Разработчик</p>
+			<p class="addressName">Наталья Васильева</p>
+			<p class="addressWork">Разработчик</p>
 		</address>
 
 		<figure>
 			<img src="./images/computer-logo.jpg" alt="картинка моноблока">
 		</figure>
 		<article>
-			<p>
+			<p class="mainText">
 				Теория цвета — это особенности эмоционального восприятия человеком
 				тех или иных цветовых решений. Цвета и различные их комбинации
 				влияют на психику человека, а значит, во многом определяют его
@@ -51,7 +52,7 @@
 			</p>
 
 
-			<p>
+			<p class="secondText">
 				Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет.
 				Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта.
 				Вместе с тем можно выделить определенные закономерности влияния цветов на
@@ -59,7 +60,7 @@
 			</p>
 
 
-			<p>
+			<p class="secondText">
 				В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что
 				использование разных цветов может существенно влиять на настроение и поведение
 				потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории
@@ -69,7 +70,9 @@
 
 		</article>
 	</main>
-	<footer>Все права защищены (c) 2024</footer>
+	<footer>
+		<p class="rightText">Все права защищены (c) 2024</p>
+	</footer>
 </body>
 
 </html>

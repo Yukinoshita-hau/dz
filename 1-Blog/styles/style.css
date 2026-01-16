@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient(180.00deg, rgba(55, 65, 81, 1), rgba(17, 24, 39, 1) 100%);
+}
+
+* {
+	font-family: Roboto;
+	font-style: Regular;
+}
+
+.navigationLink a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1);
+}
+
+.metaInformation {
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0%;
+	text-align: left;
+	opacity: 0.6;
+}
+
+address {
+	color: rgba(255, 255, 255, 1);
+}
+
+.mainText {
+	color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.secondText {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.rightText {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0%;
+	text-align: center;
+	opacity: 0.6;
+}
+
+.addressName {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.addressWork {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0%;
+	text-align: left;
+	opacity: 0.6;
+}
+
+.searchInput {
+	border-radius: 100px;
+	background: rgba(31, 41, 55, 0.6);
+}
