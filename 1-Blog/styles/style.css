@@ -7,6 +7,51 @@ body {
 	font-style: Regular;
 }
 
+nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	padding: 110px;
+}
+
+nav input {
+	border-radius: 100px;
+	background: rgba(31, 41, 55, 0.6);
+	padding: 9px;
+}
+
+address {
+	color: rgba(255, 255, 255, 1);
+}
+
+p::selection {
+	background-color: yellow;
+}
+
+h1 {
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+address {
+	margin-bottom: 30px;
+}
+
+figure {
+	margin-bottom: 69px;
+}
+
+article p {
+	margin-bottom: 39px;
+}
+
+main {
+	margin-bottom: 103px;
+}
+
 .navigationLink a {
 	color: rgba(255, 255, 255, 1);
 	font-size: 16px;
@@ -24,10 +69,7 @@ body {
 	letter-spacing: 0%;
 	text-align: left;
 	opacity: 0.6;
-}
-
-address {
-	color: rgba(255, 255, 255, 1);
+	margin-bottom: 14px;
 }
 
 .mainText {
@@ -73,9 +115,4 @@ address {
 	letter-spacing: 0%;
 	text-align: left;
 	opacity: 0.6;
-}
-
-.searchInput {
-	border-radius: 100px;
-	background: rgba(31, 41, 55, 0.6);
 }
